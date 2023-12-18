@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LG TWINS FAN PAGE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="tmgst1.css">
+    <link rel="icon" type="image/x-icon" href="lgimg/logo.png">
+
+    <!--폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid p-0">
+       
+
+       <!-- 네비게이션 영역 시작 -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="lgimg/logo.png" width="50px" height="50px" alt="로고">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="player1.html">PLAYERS</a></li>
+                <li class="nav-item"><a class="nav-link" href="hl1.html">H/L</a></li>
+                <li class="nav-item"><a class="nav-link" href="tmg1.html">To My TWINS</a></li>
+            </ul>
+            <span class="navbar-text">LG TWINS FAN PAGE</span>
+        </div>
+
+    </div>
+</nav>
+<!-- 네비게이션 영역 끝 -->
+
+       <!--첫번째 섹션 시작-->
+<section class="container-fluid mt-5 mb-5 d-flex justify-content-center align-items-center" style="min-height: 600px;">
+    <img src="lgimg/tmg1.jpg" width="1000px" height="1500px" alt="투마엘지 편지1" class="img-fluid">
+</section>
+<!--첫번째 섹션 끝-->
+
+<!-- 두번째 섹션 시작 -->
+<section id="tmgsecond" class="container-fluid mt-5 text-left">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <h2 class="text-left">To. LG TWINS</h2>
+            <hr class="mt-2">
+            <p class="text-left mt-3" style="font-size: 14px; color: #606060;">우승을 위해 달려온 선수들에게, 우리의 원팀에게, 그리고 나의 엘지에게.<br>응원의 한마디를 남겨보세요.</p>
+            <div class="d-flex justify-content-center mt-4">
+                <textarea class="form-control" placeholder="댓글을 입력하세요..." style="resize: none; width: 100%; height: 100px;"></textarea>
+            </div>
+            <div class="d-flex justify-content-end mt-2">
+                <a href="tmg2.html" class="btn btn-primary">SEND</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 두번째 섹션 끝 -->
+
+
+
+
+
+
+
+
+
+<!-- 고정 버튼 -->
+<button class="fixed-button" onclick="scrollToTop()">
+    <img class="button-img" src="lgimg/fixbt.png" alt="Button Image">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+<!-- 푸터 시작 -->
+<footer class="text-center">
+    <img src="lgimg/footer.jpg" alt="Footer Image" class="footer-img img-fluid">
+</footer>
+<!-- 푸터 끝 -->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

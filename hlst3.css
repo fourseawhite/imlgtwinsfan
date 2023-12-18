@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+    background-color: black;
+    background-image: url(lgimg/hlbg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.container {
+    padding: 20px;
+}
+
+
+
+
+/*네비 스타일*/
+.navbar {
+    background-color: #000; 
+}
+
+
+
+
+
+.navbar-brand {
+    font-family: 'Noto Sans', sans-serif; 
+}
+
+
+
+.navbar-nav .nav-item {
+    margin-right: 15px; 
+}
+
+
+.navbar-nav .nav-link {
+    color: #fff; 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #a92035; 
+    border-bottom: 3px solid #a92035;
+}
+
+
+
+.navbar-text {
+    color: #a8a8a8; 
+    margin-left: auto;
+    font-weight: 600;
+}
+
+
+
+
+
+/* 두번째 섹션 스타일 */
+#hlsecond {
+    background-color: #000; 
+}
+
+#hlsecond h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#hlsecond h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#hlsecond a.btn {
+    margin-top: 20px; 
+}
+
+
+
+
+
+
+/* 고정 버튼 스타일 */
+.fixed-button {
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* 이미지 스타일 */
+  .button-img {
+    width: 60px;
+    height: 60px;
+  }
+
